@@ -1,3 +1,67 @@
+.participants-list.no-bullets {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.participant-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.2em 0;
+}
+
+.participant-name {
+  flex: 1;
+  color: #333;
+}
+
+.delete-participant {
+  background: none;
+  border: none;
+  color: #e74c3c;
+  font-size: 1.2em;
+  cursor: pointer;
+  margin-left: 0.5em;
+  padding: 0.1em 0.4em;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.delete-participant:hover {
+  background: #ffeaea;
+  color: #c0392b;
+}
+/* Participants section styles */
+.participants-section {
+  margin-top: 1em;
+  padding: 0.75em 1em;
+  background: #f7f7fa;
+  border-radius: 8px;
+  border: 1px solid #e0e0ef;
+}
+
+.participants-section strong {
+  display: block;
+  margin-bottom: 0.5em;
+  color: #4a4a8a;
+  font-size: 1em;
+}
+
+.participants-list {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  margin: 0;
+  color: #333;
+  font-size: 0.97em;
+}
+
+.participants-section.empty {
+  background: #f9f9fb;
+  color: #aaa;
+  font-style: italic;
+  border-style: dashed;
+}
 * {
   box-sizing: border-box;
   margin: 0;
